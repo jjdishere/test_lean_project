@@ -13,3 +13,6 @@ lean_lib «NewProject» {
 lean_exe «new_project» {
   root := `Main
 }
+
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4"
